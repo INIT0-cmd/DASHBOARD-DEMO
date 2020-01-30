@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Card {
+  overflow: hidden;
+  width: 45%;
+  height: 25%;
+}
+
+.Card-Content {
+  padding: 16px;
+  width: 5px;
+  height: 45%;
+}
+
+.MuiCardActions-root {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+}
+
+.MuiAppBar-colorPrimary{
+  background: rgb(0, 198, 224);
+  background: linear-gradient(90deg, rgba(0, 198, 224, 1) 0%, rgba(0, 213, 233, 1) 35%, rgba(0, 237, 228, 1) 60%, rgba(0, 233, 207, 1) 68%, rgba(0, 233, 196, 1) 75%, rgba(0, 235, 186, 1) 80%, rgba(0, 238, 182, 1) 84%, rgba(0, 240, 177, 1) 100%);
+}
+
+.MuiTabs-flexContainer {
+  display: flex;
+  /* margin-top: 3.2rem; */
+}
+
+.MuiTabs-indicator{
+  width: 100px;
+}
+.MuiTab-root {
+  padding: 6px 12px;
+  overflow: hidden;
+  position: relative;
+  font-size: 0.875rem;
+  max-width: 264px;
+  min-width: 100px !important;
+  padding-top: 4.4rem !important;
+
+}
+.MuiTab-root.Mui-selected{
+background: rgba(0, 237, 229, 1);
+background: -moz-linear-gradient(top, rgba(0, 237, 229, 1) 4%, rgba(0, 237, 229, 1) 26%, rgba(88, 244, 236, 1) 51%, rgba(88, 244, 236, 1) 62%, rgba(88, 244, 236, 1) 71%, rgba(88, 244, 236, 1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(4%, rgba(0, 237, 229, 1)), color-stop(26%, rgba(0, 237, 229, 1)), color-stop(51%, rgba(88, 244, 236, 1)), color-stop(62%, rgba(88, 244, 236, 1)), color-stop(71%, rgba(88, 244, 236, 1)), color-stop(100%, rgba(88, 244, 236, 1)));
+background: -webkit-linear-gradient(top, rgba(0, 237, 229, 1) 4%, rgba(0, 237, 229, 1) 26%, rgba(88, 244, 236, 1) 51%, rgba(88, 244, 236, 1) 62%, rgba(88, 244, 236, 1) 71%, rgba(88, 244, 236, 1) 100%);
+background: -o-linear-gradient(top, rgba(0, 237, 229, 1) 4%, rgba(0, 237, 229, 1) 26%, rgba(88, 244, 236, 1) 51%, rgba(88, 244, 236, 1) 62%, rgba(88, 244, 236, 1) 71%, rgba(88, 244, 236, 1) 100%);
+background: -ms-linear-gradient(top, rgba(0, 237, 229, 1) 4%, rgba(0, 237, 229, 1) 26%, rgba(88, 244, 236, 1) 51%, rgba(88, 244, 236, 1) 62%, rgba(88, 244, 236, 1) 71%, rgba(88, 244, 236, 1) 100%);
+background: linear-gradient(to bottom, rgba(0, 237, 229, 1) 4%, rgba(0, 237, 229, 1) 26%, rgba(88, 244, 236, 1) 51%, rgba(88, 244, 236, 1) 62%, rgba(88, 244, 236, 1) 71%, rgba(88, 244, 236, 1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ede5', endColorstr='#58f4ec', GradientType=0);
+}
+
+button.MuiButtonBase-root.MuiIconButton-root {
+  position: relative;
+  top: 1.1rem;
+}
+
+.MuiTypography-body1 {
+background: rgb(161, 191, 243);
+background: radial-gradient(circle, rgba(161, 191, 243, 1) 0%, rgba(161, 191, 243, 1) 13%, rgba(168, 170, 232, 1) 40%, rgba(170, 159, 227, 1) 51%, rgba(173, 152, 223, 1) 81%);
+}
+
+.MuiFab-extended,
+.MuiFab-root {
+  width: 100% !important;
+ 
+}
+
+.chartjs-render-monitor {
+  animation: chartjs-render-animation 0.001s;
+  background: #fff;
+}
+
+.MuiTypography-colorTextSecondary {
+  color: rgba(0, 0, 0, 0.54);
+  background: #fff;
+  font-size: 12px !important;
+}
+
+.MuiButton-textSizeLarge {
+  padding: 15px 16px !important;
+  font-size: 0.6rem !important;
+  background: #00cfe5 !important;
+  color: #fff !important;
+  font-weight: bold !important;
+}
+.MuiButton-textSizeLarge:hover{
+  background: rgb(9, 56, 100) !important;
+}
